@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* it call   pseudeo class */
+        .box:hover {
+            background-color: yellow;
+
+        }
+
+        .p1 {
+            background-color: red;
+            padding: 1rem;
+            display: none;
+        }
+
+        .d1:hover+.p1 {
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium omnis doloribus exercitationem laudantium
+        impedit voluptas recusandae dolorem, quam ducimus, placeat ullam officiis et nulla blanditiis. Aperiam dolores
+        nesciunt veritatis dolorem.
+    </div>
+    <div class="d1">
+        have me
+    </div>
+    <p class="p1"> this is awsoome paara </p>
+    <div class="fancy">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa odio error dignissimos itaque
+        cupiditate vitae sit dicta, earum quos nisi numquam libero rem sapiente voluptas ea ut fugit incidunt accusamus.
+    </div>
+</body>
+
+</html>

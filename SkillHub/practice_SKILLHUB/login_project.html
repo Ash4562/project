@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+            background-color: rgb(202, 247, 113);
+            height: 200px;
+        }
+
+        .card {
+            border: 2px solid yellowgreen;
+            width: 400px;
+            background-color: yellowgreen;
+            margin: 0 auto;
+            margin-top: -90px;
+        }
+
+        .card-header {
+            text-align: center;
+            margin: 3rem 0px;
+
+        }
+
+        .card-body {
+            background-color: rgb(202, 247, 113);
+            padding: 2rem 2rem;
+        }
+
+        .card-header {
+            text-align: center;
+            background-image: url(../css/asset/images/1.svg);
+            padding: 3rem 0px;
+        }
+
+        .input-group {
+            display: flex;
+            margin-bottom: 1.5em;
+        }
+
+        .card-body span {
+            background-color: yellowgreen;
+            color: white;
+            padding: .5rem 1rem;
+            width: 150px;
+            border-top-left-radius: 0.25rem;
+            border-bottom-left-radius: 0.25rem;
+
+        }
+
+        button {
+            width: 95%;
+            /* text-align: center; */
+            color: white;
+            background-color: yellowgreen;
+            border-radius: 10px;
+            padding: 1rem;
+            font-size: 1.5rem;
+            border: none;
+            margin-top: 1.5em;
+
+        }
+
+        .card-body input {
+            width: 100%;
+            border-top-right-radius: 0.25rem;
+            border-bottom-right-radius: 0.25rem;
+            border: none;
+            background-color: rgb(179, 233, 70);
+            height: 3rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+    <div class="card">
+        <div class="card-header">
+            <h1>Secure login</h1>
+            <p>powered by SKLLHUB</p>
+        </div>
+        <div class="card-body">
+            <div class="input-group">
+                <span>user Name</span>
+                <input type="text" placeholder="register">
+            </div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        </div>
+        <div class="card-body">
+            <div class="input-group">
+                <span>user Name</span>
+                <input type="text" placeholder="register">
+            </div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <button class="animate__animated animate__bounce">log in</button>
+        </div>
+
+    </div>
+</body>
+
+</html>

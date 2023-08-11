@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            background-color: rgb(240, 240, 240);
+        }
+
+        .box {
+            height: 200px;
+            background-color: #662d91;
+
+            /* width: 400px;
+            border: 2px solid #662d91;
+            margin-top: 6%;
+            margin-left: 25%; */
+        }
+
+        .card {
+            border: 2px solid #8c5ab3;
+            width: 400px;
+            margin: 0 auto;
+            margin-top: -170px;
+        }
+
+        .card-header {
+            /* background-color: #662d91; */
+            padding: 3rem 0px;
+            text-align: center;
+            background-image: url(./asset/images/1.svg);
+        }
+
+        .card-header>h1 {
+            color: white;
+            font-size: 3rem;
+        }
+
+        .card-header>p {
+            color: rgb(245, 239, 239);
+            margin: 1rem 0;
+        }
+
+        .card-body {
+            padding: 2rem 1rem;
+
+        }
+
+        .card-body span {
+            background-color: #662d91;
+            color: rgb(208, 208, 208);
+            padding: .5rem 1rem;
+            width: 150px;
+            border-top-left-radius: 0.25rem;
+            border-bottom-left-radius: 0.25rem;
+
+        }
+
+        .card-body input {
+            width: 100%;
+            border-top-right-radius: 0.25rem;
+            border-bottom-right-radius: 0.25rem;
+            border: none;
+            background-color: #662d918e;
+            height: 3rem;
+        }
+
+        .card-body input::placeholder {
+            color: #662d91;
+            padding: 0px 1rem;
+        }
+
+        .card-body p {
+            color: gray;
+            margin: 1rem 0px;
+        }
+
+        .input-group {
+            display: flex;
+            margin-bottom: 1.5em;
+            /* align-items: center; */
+
+
+        }
+
+        button {
+            width: 100%;
+            /* text-align: center; */
+            color: white;
+            background-color: #662d91;
+            border-radius: 5px;
+            padding: 1rem;
+            font-size: 1.5rem;
+            border: none;
+            margin-top: 1.5em;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+    <div class="card">
+        <div class="card-header">
+            <h1> Secure login</h1>
+            <p> powered by SKLLHUB</p>
+        </div>
+        <div class="card-body">
+            <div class="input-group">
+                <span>user Name</span>
+                <input type="text" placeholder="reg">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            <div class="input-group">
+                <span>user Name</span>
+                <input type="text" placeholder="reg">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+
+            <button>log in</button>
+        </div>
+
+    </div>
+</body>
+
+</html>

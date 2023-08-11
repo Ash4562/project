@@ -1,0 +1,35 @@
+.html{
+    background-color: aquamarine;
+}
+
+
+#logo{
+
+}
+
+#hero{
+    display: grid;
+    grid-template-columns: 55% auto auto;
+    margin-top: 20%;
+    height: 5 00px;
+    
+    
+}
+.hero-sec{
+    background-color: aquamarine;
+    text-align: center;
+    margin: 0 5%;
+    margin-left: 10px;
+    
+}
+
+.creat{
+   
+}
+.button{
+    margin: 10px 10px;
+}
+
+.asch{
+    margin: 2% 3%;
+}
